@@ -1,0 +1,65 @@
+
+.top {
+    position: relative;
+    height: 100px;
+    text-align: right;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+
+}
+
+.top div {
+    display: inline;
+    position: relative;
+    top: 3px;
+    margin-right: 12px;
+
+}
+
+.top div.options {
+    top: 7px;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+.options img {
+    height: 16px;
+    width: 16px;
+    opacity: 0.5;
+}
+
+div.notifications {
+    background-color: #777;
+    padding: 3px 6px 3px 6px;
+    border-radius: 50%;
+    top: 4px;
+    margin-right: 13px;
+
+}
+
+.notifications img {
+    width: 9px;
+    height: 9px;
+
+}
+
+.top div.profile-picture {
+    top: 15px;
+    margin-right: 29px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.google-logo {
+    margin-top: 100px;
+    width: 270px;
+}
