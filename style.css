@@ -1,9 +1,23 @@
 
+html, body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 .top {
+    color: #222;
     position: relative;
     height: 100px;
     text-align: right;
-    font-family: arial, sans-serif;
     font-size: 13px;
 
 }
@@ -28,6 +42,10 @@
     opacity: 0.5;
 }
 
+.options img:hover{
+    opacity: 0.85;
+}
+
 div.notifications {
     background-color: #777;
     padding: 3px 6px 3px 6px;
@@ -35,6 +53,10 @@ div.notifications {
     top: 4px;
     margin-right: 13px;
 
+}
+
+div.notifications:hover {
+    background-color: #222;
 }
 
 .notifications img {
@@ -62,4 +84,94 @@ div.notifications {
 .google-logo {
     margin-top: 100px;
     width: 270px;
+}
+
+#search-bar {
+    max-width: 580px;
+    height: 45px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 3px #999;
+}
+
+#search-bar input {
+    font-size: 16px;
+    width: 505px;
+    height: 35px;
+    margin: 5px 15px;
+    border: none;
+    
+}
+
+#search-bar input:focus {
+    outline: none;
+}
+
+#search-bar .microphone {
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+#search-bar .microphone img {
+    height: 25px;
+    width: 25px;
+}
+
+#search-buttons {
+    text-align: center;
+    margin-top: 32px;
+}
+#search-buttons input {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #757575;
+    background: #f2f2f2;
+    border: 1px solid #f5f5f5;
+    border-radius: 2px;
+    padding: 10px 18px;
+    margin: 0 2px;
+}
+
+#search-buttons input:hover {
+    color: #000;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    box-shadow: 0px 1px 2px -1px #ccc;
+}
+
+
+
+html {
+    height: 100%;
+}
+  
+body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    font-size: 13px;
+    color: #5f6368;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 13px 18px;
+    background-color: #efefef;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer div {
+    display: inline;
+ }
+
+ .footer span {
+     margin: 0 12px;
+ }
+
+ .right {
+    float: right;
 }
